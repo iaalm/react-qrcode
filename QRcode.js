@@ -80,11 +80,13 @@ module.exports = React.createClass({
   
 		return  options.render == "canvas" ? createCanvas() : createTable();
 	},
+	componentDidMount: function() {
+	$('#qrcode').append(this.qrcode())
+	// this.refs.qrcode.append(this.qrcode())
+	},
 	render: function() {
 		return (
-				<div>
-				{this.qrcode()}
-				</div>
+				<div id='qrcode' ref='qrcode' />
 		)
 	}
 });
