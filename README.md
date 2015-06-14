@@ -1,10 +1,18 @@
 react-qrcode
 ====
+QR code for ReactJS
 
-QR code for ReactJS 
-----
 
->  `<QRcode text="http://www.baidu.com" width=256 height=256 />`
+Install
+------
+`npm install react-qrcode`
+
+Use
+---
+`<QRcode text="http://www.pairyo.com/" width=256 height=256 />`
+
+
+#### Thanks
 
 Thanks to jeromeetienne's [jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode). Honestly, pairyo copied your code, but we found this is a must as react is hot, and we need to provide an alternative.
 
