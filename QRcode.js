@@ -81,7 +81,6 @@ module.exports = React.createClass({
 		return  options.render == "canvas" ? createCanvas() : createTable();
 	},
 	render: function() {
-		debugger
 		return (
 				<div>
 				{this.qrcode()}
