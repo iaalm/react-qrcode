@@ -1,0 +1,24 @@
+{
+  "name": "react-qrcode",
+  "version": "0.1.0",
+  "description": "QR code for ReactJS",
+  "main": "QRcode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iaalm/react-qrcode.git"
+  },
+  "keywords": [
+    "QR",
+    "ReactJS",
+    "QRcode"
+  ],
+  "author": "Iaalm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iaalm/react-qrcode/issues"
+  },
+  "homepage": "https://github.com/iaalm/react-qrcode#readme"
+}
