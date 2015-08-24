@@ -1,6 +1,6 @@
 {
   "name": "react-qrcode",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "QR code for ReactJS",
   "main": "QRcode.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "url": "git+https://github.com/iaalm/react-qrcode.git"
   },
   "dependencies": {
+    "react": "^0.12.1",
     "jquery": "^2.1.3"
   },
   "keywords": [
