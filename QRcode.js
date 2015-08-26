@@ -86,7 +86,7 @@ module.exports = React.createClass({
 	},
 	render: function() {
 		return (
-				<div id='qrcode' ref='qrcode' />
+        React.createElement('div', {id: 'qrcode', ref: 'qrcode'})
 		)
 	}
 });
