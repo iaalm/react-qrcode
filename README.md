@@ -1,5 +1,9 @@
 react-qrcode
+
+> **This repository is no longer maintained, and the `react-qrcode` npm package has been transferred to [@rxts/react-qrcode](https://github.com/rx-ts/react/blob/master/packages/react-qrcode).**
+
 ====
+
 QR code for ReactJS
 
 
